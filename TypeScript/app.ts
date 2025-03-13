@@ -11,9 +11,4 @@ if (header) {
   header.innerHTML = `Hello, ${Tom.name}`;
 }
 
-let x = 10;
-console.log(x);
 
-var x = 20;
-console.log(x);
-}
