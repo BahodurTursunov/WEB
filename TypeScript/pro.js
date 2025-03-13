@@ -1,8 +1,9 @@
-// var firstName = "Tom";
-// var age = 25;
-// var sentence = "Name ".concat(firstName, "\n    Age:").concat(age);
-// var someVar = "hello";
-// console.log(someVar);
-// someVar = 20;
-// console.log(someVar);
-
+"use strict";
+let firstName = "Tom";
+let age = 25;
+let sentence = `Name ${firstName}
+    Age:${age}`;
+let someVar = "hello";
+console.log(someVar);
+someVar = 20;
+console.log(someVar);
