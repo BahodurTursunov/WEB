@@ -154,17 +154,17 @@
 // x = 5;
 // console.log(x);
 
-// let userId: number | null = null;
-// function PrintId(id: number | null) {
-//   if (id === null) {
-//     console.log("пользователь отсутствует");
-//   } else {
-//     console.log(`Id пользователя: ${id}`);
-//   }
-// }
-// PrintId(userId);
-// userId = 123456;
-// PrintId(userId);
+let userId: number | null = null;
+function PrintId(id: number | null) {
+  if (id === null) {
+    console.log("пользователь отсутствует");
+  } else {
+    console.log(`Id пользователя: ${id}`);
+  }
+}
+PrintId(userId);
+userId = 123456;
+PrintId(userId);
 
 // Оператор !
 
