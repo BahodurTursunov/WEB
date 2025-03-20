@@ -43,6 +43,7 @@ PrintPerson(Baby);
 */
 
 // Расширение псевдонимов
+/*
 type Person = {name:string};
 // расширяем псевдоним Person
 type Employee = Person & {companyName: string};
@@ -55,4 +56,4 @@ function PrintP(user: Person){
 }
 
 PrintP(q);
-PrintP(e);
+PrintP(e);*/
