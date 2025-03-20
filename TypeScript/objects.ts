@@ -58,8 +58,9 @@
 // PrintUsers(bob);
 
 // Декомпозиция объектов-параметров
+/*
 
-function PrintUser({ name, age/*=25*/}: { name: string; age?: number }) {
+function PrintUser({ name, age/!*=25*!/}: { name: string; age?: number }) {
     if(age !== undefined)
         console.log(`name: ${name} age: ${age}`);
     else
@@ -71,3 +72,4 @@ PrintUser(tom);
 
 let bob = {name:"bob"};
 PrintUser(bob);
+*/
