@@ -20,7 +20,7 @@ class Item{
   imports: [FormsModule],
   template: `
         <h1> Список покупок </h1>
-        <div>
+        <div class="input">
             <p>
                 <label>Товар</label><br>
                 <input [(ngModel)]="text" />
@@ -48,7 +48,21 @@ class Item{
                 </tr>
             }
             </tbody>
-        </table>`
+        </table>`,
+  styles: [`
+  input{
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    align-items: center;
+    justify-content: center;
+    display: inline;
+  }
+
+  `]
 })
 export class AppComponent {
   text: string = "";
